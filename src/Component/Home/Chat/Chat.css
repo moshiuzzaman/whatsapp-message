@@ -1,6 +1,105 @@
 .chat{
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     flex: 0.65;
-    
 }
+
+.chat_header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat_headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat_headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat_headerInfo > p{
+    color: gray;
+}
+
+
+.chat__body{
+    flex: 1;
+    background: linear-gradient(rgba(214, 208, 199, 0.966),rgba(214, 206, 195, 0.945)), url("https://web.whatsapp.com/img/bg-chat-tile-light_686b98c9fdffef3f63127759e2057750.png");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chat__massage{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.chat__reciever{
+    margin-left: auto;
+    background: #dcf8c6;
+}
+
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+
+
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    border-top: 1px solid lightgray;
+}
+
+.chat__footer > form{
+    flex: 1;
+    display: flex;
+}
+
+.chat__footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+    outline-width: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.chat__footer > form > button{
+    display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
+
+/* ========================== last i see video in 1:52:32 ====================*/
